@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CIELO_TM.Models.PRODUCTOS>
+
+@{
+    ViewBag.Title = "Cuentaspagadas";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+}
+
+
+<div class="wrapper screen">
+
+    <h2 style="text-align:center;color:rgba(42, 40, 40, 0.79);">Cuentas pagadas</h2>
+    <table class="table">
+        <tr>
+
+            <th>
+                Producto
+            </th>
+        
+            <th>
+                Precio
+            </th>
+        
+            <th>
+                Provedor
+            </th>
+            <th>
+                CAntidad
+            </th>
+            <th>
+                Estatus
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRODUCTO)
+                </td>
+        
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRECIO_VENTA)
+                </td>
+          
+                <td>
+                    @Html.DisplayFor(modelItem => item.PROVEDORES.NOMBRE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CANTIDAD)
+                </td>
+                <td>
+                    pagada
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</div>

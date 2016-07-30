@@ -1,0 +1,58 @@
+﻿
+@model CIELO_TM.Models.PRODUCTOS
+
+@{
+    ViewBag.Title = "ELiminar producto";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+
+}
+
+
+<h3>Estas Seguro que deseas eliminar este producto?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.PRODUCTO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MARCA.MARCA1)
+        </dd>.
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CATEGORIA.CATEGORIA1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CATEGORIA.CATEGORIA1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PROVEDORES.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PROVEDORES.NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GENERO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GENERO)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+        </div>
+    }
+</div>

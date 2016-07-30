@@ -1,0 +1,79 @@
+﻿@model CIELO_TM.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Registrarse";
+}
+<link href="@Url.Content("~/Content/register.css")" rel="stylesheet" />
+<div class="login">
+    <div class="login-screen">
+        <div class="app-title">
+            <h1>Unete a Cielo</h1>
+        </div>
+        <h4 class="app-title">La mejor manera de comprar rapido y facil.</h4>
+
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Nombre, new { @class = "login-field", @placeholder = "Nombre" })
+                @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger" })
+            </div>   <br />
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Apellido, new { @class = "login-field", @placeholder = "Apellido" })
+                @Html.ValidationMessageFor(m => m.Apellido, "", new { @class = "text-danger" })
+            </div>   <br />
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Telefono, new { @class = "login-field", @placeholder = "Telefono" })
+                @Html.ValidationMessageFor(m => m.Telefono, "", new { @class = "text-danger" })
+            </div>   <br />
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Codigo_postal, new { @class = "login-field", @placeholder = "Codigo Postal" })
+                @Html.ValidationMessageFor(m => m.Codigo_postal, "", new { @class = "text-danger" })
+            </div>   <br />
+
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Municipio, new { @class = "login-field", @placeholder = "Municipio" })
+                @Html.ValidationMessageFor(m => m.Municipio, "", new { @class = "text-danger" })
+            </div>   <br />
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Provincia, new { @class = "login-field", @placeholder = "Provincia" })
+                @Html.ValidationMessageFor(m => m.Provincia, "", new { @class = "text-danger" })
+            </div>   <br />
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Direccion, new { @class = "login-field", @placeholder = "Direcion" })
+                @Html.ValidationMessageFor(m => m.Direccion, "", new { @class = "text-danger" })
+            </div>   <br />
+
+
+            <div class="control-group">
+                @Html.TextBoxFor(m => m.Email, new { @class = "login-field", @placeholder = "Correo Electronico" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+            </div>   <br />
+
+            <div class="control-group">
+
+                @Html.PasswordFor(m => m.Password, new { @class = "login-field", @placeholder = "Contraseña" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+            </div>   <br />
+            <div class="control-group">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "login-field", @placeholder = "re-Contraseña" })
+            </div><br />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Registrarse" class="btn btn-primary btn-large btn-block" />
+                </div>
+            </div>
+        }
+        </div>
+    </div>
+
+        @section Scripts {
+@Scripts.Render("~/bundles/jqueryval")
+        }

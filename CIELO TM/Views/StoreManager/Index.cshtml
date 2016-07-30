@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+}
+<div class="wrapper">
+    <h2>Index</h2>
+
+    @Html.ActionLink("Agregar Marca", "AgregarMarca", "StoreManager")<br />
+    @Html.ActionLink("Agregar Categoria", "AgregarCategoria", "StoreManager")<br />
+    @Html.ActionLink("Inventario", "inventario", "StoreManager")<br />
+    @Html.ActionLink("Agregar Producto", "AgregarProducto", "StoreManager")<br />
+    @Html.ActionLink("Cuentas Por Pagar", "CuentasPorPagar", "StoreManager")<br />
+    @Html.ActionLink("Cuentas pagadas", "Cuentaspagadas", "StoreManager")<br />
+    @Html.ActionLink("Informe de ventas", "informarVentas", "StoreManager")<br />
+    @Html.ActionLink("Proveedores", "Provedores", "StoreManager")<br />
+    @Html.ActionLink("ir a Cielo", "Index", "Home")<br />
+</div>

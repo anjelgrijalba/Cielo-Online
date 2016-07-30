@@ -1,0 +1,66 @@
+﻿@model CIELO_TM.Models.ShoppingCartViewModel
+@{
+    ViewBag.Title = "Shopping Cart";
+}
+
+
+
+
+<div id="update-message">
+</div>
+<table>
+    <tr>
+        <th>
+            @Html.ActionLink("Vaciar Carrito", "emptycart")
+        </th>
+
+    </tr>
+    <tr>
+        <th>
+            Producto
+        </th>
+        <th>
+            Precio Unidad
+        </th>
+        <th>
+            Cantidad
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.CartItems)
+    {
+        <tr id="row-@item.RecordId">
+            <td>
+                @Html.ActionLink(item.PRODUCTOS.PRODUCTO, "Details", "Store", new { id = item.ID_producto }, null)
+            </td>
+            <td>
+                @String.Format("{0:F}", @item.PRODUCTOS.PRECIO_VENTA)
+            </td>
+            <td id="item-count-@item.RecordId">
+               <input type="text" value=" @item.contador" />
+            </td>
+            <td>
+               
+                @Html.ActionLink("Elimar del carrito", "RemoveFromCart", "ShoppingCart", new { id = item.RecordId }, "")
+
+            </td>
+        </tr>
+    }
+    <tr>
+        <td>
+            Total
+        </td>
+        <td></td>
+        <td></td>
+        <td id="cart-total">
+            @String.Format("{0:F}", @Model.CartTotal)
+        </td>
+    </tr>
+</table>
+
+<p style="text-align:center; font-size:18px;">
+    @Html.ActionLink("Checkout", "Payment", "Checkout")
+</p>
+
+
+

@@ -1,0 +1,392 @@
+*{
+	margin: 0px;
+	padding: 0px;
+   	border: none;
+
+}
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #ECF0F1;
+}
+
+/*inicio barra de navegacion*/
+
+header{
+	background: rgba(197, 17, 89, 1.00);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	/*/height: 20%;*/
+    border-bottom: 0.5px solid #8D7B7B;
+    margin-bottom:20px;
+    overflow:hidden;
+
+}
+
+
+
+    header .logo {
+        overflow:hidden;
+        line-height:100px;
+	    font-size:50px;
+        float:left;
+        margin-left:4%;
+        margin-top:20px;
+    }
+
+nav{
+	float: right;
+    line-height:100px;
+    position:relative;
+
+}
+nav ul{
+	list-style: none;
+	overflow: hidden;
+   
+
+}
+
+nav ul li{
+	float: left;
+	font-family: Arial,sans-serif;
+	font-size: 16px;
+
+}
+nav ul li a{
+	display: inline-block;
+	padding:25px;
+	color: #fff;
+	text-decoration: none;
+    line-height:normal;
+    -webkit-transition:all 2000ms  ease-out;
+    -o-transition:all 2000ms  ease-out;
+    transition:all 2000ms  ease-out;
+}
+
+nav ul li a:hover{
+    background:#8F0252;
+    border-radius:50px;
+
+}
+/*Aleja el enlace de iniciar sesion de los demas enlaces (arreglar esta mierda que asi esta chuipi)*/
+
+.ini{
+        margin-left:100px;
+		overflow: hidden;
+line-height:100px;	
+
+}
+
+
+
+
+
+
+/*fin de barra de navegacion 1*/
+
+
+/*header 2*/
+.header2 {
+
+    position:fixed;
+}
+.header2 .logo {
+    line-height:100px;
+       
+    
+}
+
+    .header2 nav {
+        line-height:100px;
+    }
+
+/*contenido de aqui para abajo*/
+.contenido{
+    padding-top:10%;
+}
+
+
+.wrapper{
+    margin-top:500px;
+	width:90%;
+	margin: auto;
+	overflow: hidden;
+    text-align:justify;
+    max-width:1000px;
+}
+
+
+
+
+
+
+p {
+	margin-top: 10px;
+}
+
+/*fin dek contenido aqui*/
+
+
+/*pie de pagina*/
+footer{
+	width: 100%;
+	height:280px;
+	background: rgba(0,0,0,0.9);
+    bottom: 0px;
+    left:0px;
+}
+
+footer p{
+	color: #fff;
+	opacity: 50;
+	text-align: center;
+    vertical-align:text-bottom;
+    opacity:0.4;
+}
+
+
+/*Redes sociales en footer*/
+
+.socialnet {
+    float:right;
+    margin-right:55px;
+}
+
+.socialnet h5 {
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.socialnet img {
+    opacity:0.3;
+    
+    }
+
+.socialnet img:hover{
+    opacity:0.8;
+    
+    }
+
+.footer-item {
+    margin-top:5px;
+    text-decoration:none;
+    list-style:none;
+    display:grid;
+}
+
+  
+/*fin pie de pagina*/
+
+
+
+/*boton para ir arriba*/
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:rgba(0,0,0,0.5);
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:0px;
+	right:0px;
+}
+
+
+
+
+
+
+
+
+
+/*inicio de session*/
+/*.container {
+    width:450px;
+    margin:auto;
+}
+
+
+
+input {
+height:40px;
+border-color:rgba(197,17,89,0.9);
+border:solid 1px;
+font-size:18px;
+color:#8D7B7B;
+margin-top:20px;
+text-align:center;
+width:280px;
+font-family:'Agency FB','Courier New',Forte;
+}
+
+
+.enviarbtn {
+    margin-top:10px;
+    height:50px;
+    width:280px;
+    color:#fff;
+    background:rgba(197,17,89,0.9);
+    border:0px;
+    font-family:'Agency FB','Courier New',Forte;
+}
+
+.enviarbtn:hover {
+    background:#8F0252;
+}*/
+
+
+
+.footer-nav {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 66.66667%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+/* login
+----------------------------------------------------------*/
+#login {
+    display: block;
+    font-size: .85em;
+    margin: 0 0 10px;
+    text-align: right;
+}
+
+    #login a {
+        background-color: #d3dce0;
+        margin-left: 10px;
+        margin-right: 3px;
+        padding: 2px 3px;
+        text-decoration: none;
+    }
+
+    #login a.username {
+        background: none;
+        margin: 0;
+        padding: 0;
+        text-decoration: underline;
+    }
+
+    #login ul {
+        margin: 0;
+    }
+
+    #login li {
+        display: inline;
+        list-style: none;
+    }
+
+
+    .navbar-right .dropdown-menu-left{right:auto;left:0}
+.navbar-right .dropdown-menu{right:0;left:auto}
+.navbar-nav{margin:7.5px -15px}
+.nav{padding-left:0;margin-bottom:0;list-style:none}
+
+
+.txt-buscar {
+text-align: center;
+background-color: #fff;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width:100%;
+transition: border .5s;
+margin: 0 auto;
+margin-bottom:10px;
+}
+
+.txt-buscar:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+
+.btn {
+  border: 2px solid transparent;
+  background:rgba(197,17,89,0.9);
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top:1px;
+}
+
+.btn:hover {
+  background-color: #8F0252;
+}
+
+/*TABLAS*/
+
+
+table {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif'; 
+     font-size: 14px; 
+     margin: 45px;
+     width: 90%; 
+     text-align: left;
+     border-collapse: collapse; 
+     transition:ease-in;
+
+} 
+
+th{
+    font-size: 13px; 
+    font-weight: normal; 
+    padding: 8px; 
+    background: rgba(197, 17, 89, 1.00); 
+    border-top: 4px solid rgba(0,0,0,0.5); 
+    border-bottom: 1px solid #FFFAAF; 
+    color: #FFF; 
+
+} 
+
+td {
+    padding: 8px; 
+    background:#FFF; 
+    border-bottom: 1px solid #fff; 
+    color: #669; 
+    border-top: 1px solid transparent;
+    border-color:rgba(0,0,0,0.5);
+
+} 
+
+tr :hover td {
+    background: #d0dafd; 
+    color: #339; 
+
+}
+
+.screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px;
+margin-top:40px;
+
+}

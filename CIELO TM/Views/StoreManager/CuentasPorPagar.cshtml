@@ -1,0 +1,103 @@
+﻿@model IEnumerable<CIELO_TM.Models.PRODUCTOS>
+
+@{
+    ViewBag.Title = "CuentasPorPagar";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+}
+
+
+<div class="wrapper screen">
+    <h2 style="text-align:center;color:rgba(42, 40, 40, 0.79);">Cuentas X Pagar</h2>
+    <table class="table">
+
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.PRODUCTO)
+            </th>
+
+            <th>
+                PRECIO
+            </th>
+            <th>
+                MARCA
+            </th>
+   
+            <th>
+                PROVEEDOR
+            </th>
+
+            <th>
+                CORREO
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CANTIDAD)
+            </th>
+            <th>
+                sub-total
+            </th>
+            <th></th>
+        </tr>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRODUCTO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRECIO_VENTA)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MARCA.MARCA1)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.PROVEDORES.NOMBRE)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.PROVEDORES.CORREO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CANTIDAD)
+                </td>
+
+                <td>
+                   
+                        @String.Format("{0:F}", (item.CANTIDAD * item.PRECIO_VENTA))
+                    
+                </td>
+
+
+
+                <td>
+                <td>
+                    @Html.ActionLink("Pagar al Provedor", "PagarCuentas", new { id = item.ID_PRODUCTO })
+                </td>
+            </tr>
+        }
+        <tr>
+            <td>
+                Total a pagar
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                @try
+                {    
+                     @String.Format("{0:F}", @ViewBag.Total)
+
+                }
+                catch
+                {
+
+                }
+
+            </td>
+        </tr>
+    </table>
+
+</div>

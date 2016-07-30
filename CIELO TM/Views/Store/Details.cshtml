@@ -1,0 +1,66 @@
+﻿@model CIELO_TM.Models.PRODUCTOS
+
+@{
+    ViewBag.Title = "Cielo - " + Model.PRODUCTO;
+}
+<link href="~/Content/detalleProdutoStyle.css" rel="stylesheet" />
+<div class="contenedor">
+
+    <div class="blocque1">
+
+        <div class="vrt">
+       
+                <h1 style="text-align:center;"> [@Model.PRODUCTO]</h1> 
+           
+            <p>
+                <em>Marca:</em>
+                    <b class="resalte"> @Model.MARCA.MARCA1</b>
+            </p>
+            <p>
+                <em>Categoria:</em>
+                    <b class="resalte"> @Model.CATEGORIA.CATEGORIA1</b>
+            </p>
+
+            <p>
+                <em>Descripcion:</em>
+                    <b class="resalte"> @Model.DESCRIPCION</b>
+            </p>
+
+            <p>
+                <em>Cantidad disponible:</em>
+                
+                    <b class="resalte"> @Model.CANTIDAD</b>
+            </p>
+
+            @foreach (var a in Model.COMENTARIO)
+            {
+                <b>@Html.DisplayFor(modelItem => a.AspNetUsers.UserName)</b>
+                <br />
+                     @a.COMENTARIO1
+                 <br />
+            }
+
+            <p>
+                <em>Precio:</em>
+                    <b class="resalte"> @String.Format("{0:F}", Model.PRECIO_VENTA) $</b>
+            </p>
+            <p class="btn">
+                @Html.ActionLink("agregar al carrito", "AddToCart", "ShoppingCart", new { id = Model.ID_PRODUCTO},"")
+
+
+            </p>
+        </div>
+    </div>
+
+    <div class="blocque2">
+        <img alt="@Model.PRODUCTO" src="@Model.IMAGEN1" style="width:450px;height:350px; margin:auto;" />
+
+        <div >
+            <img alt="@Model.PRODUCTO" src="@Model.IMAGEN2"  class="img1"/>
+        </div>
+        <div>
+            <img alt="@Model.PRODUCTO" src="@Model.IMAGEN3"  class="img2"/>
+        </div>
+    </div>
+
+</div>

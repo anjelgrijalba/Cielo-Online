@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CIELO_TM.Models.PRODUCTOS>
+
+
+<link href="~/Content/stylecard.css" rel="stylesheet" />
+<script src="~/Scripts/cardscript.js"></script>
+
+
+
+    <div class="wrappercard">
+        @foreach (var item in Model)
+        {
+            <div class="card radius shadowDepth1">
+                <div class="card__image border-tlr-radius">
+                    <img src="@item.IMAGEN2" alt="image" class="border-tlr-radius">
+
+                </div>
+
+
+                <div class="card__content card__padding">
+                    <div class="card__share">
+
+                        <div class="share-toggle share-icon">
+                            @Html.ActionLink("Ver", "Details", "Store", new { id = item.ID_PRODUCTO }, "")
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="card__meta">
+                        Precio:
+                        <time>@String.Format("{0:F}", @item.PRECIO_VENTA)</time>
+                    </div>
+
+                    <article class="card__article">
+                        <h2>@item.PRODUCTO</h2>
+                        @using (Ajax.BeginForm("numeritos", "ShoppingCart", new AjaxOptions { HttpMethod = "get", InsertionMode = InsertionMode.Replace, UpdateTargetId = "actNumeroCarrito" }))
+                        {
+                            @Html.ActionLink("Agregar al carrito", "AddToCart", "ShoppingCart", new { id = item.ID_PRODUCTO }, "")
+                        }
+
+
+                    </article>
+                </div>
+
+            </div>
+        }
+    </div>

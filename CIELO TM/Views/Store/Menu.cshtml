@@ -1,0 +1,15 @@
+﻿@model IEnumerable<CIELO_TM.Models.PRODUCTOS>
+
+
+<link href="~/Content/stylecard.css" rel="stylesheet" />
+<script src="~/Scripts/cardscript.js"></script>
+
+@using (Ajax.BeginForm(new AjaxOptions { HttpMethod = "get", InsertionMode = InsertionMode.Replace, UpdateTargetId = "elidajax" }))
+{
+    <input type="text" id="buscador" placeholder="Busca tu Marca favorita" name="q" class="txt-buscar">
+
+    <input type="submit" value="Buscar" class="btn btn-buscar" />
+
+}
+
+@Html.Partial("_Marca", Model)

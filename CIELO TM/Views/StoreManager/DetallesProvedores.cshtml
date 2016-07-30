@@ -1,0 +1,70 @@
+﻿@model CIELO_TM.Models.PROVEDORES
+
+@{
+    ViewBag.Title = "Detalles provedor";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+
+}
+<link href="~/Content/StyleSheet_estilosR.css" rel="stylesheet" />
+<div>
+
+    <hr />
+    <dl class="screen login-screen">
+        <h2 class="app-title">DETALLLES PROVEEDOR</h2>
+
+        <dt>
+            <b>
+                @Html.DisplayNameFor(model => model.NOMBRE)
+            </b>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOMBRE)
+        </dd>
+
+        <dt>
+            <b>
+                @Html.DisplayNameFor(model => model.APELLIDO)
+            </b>
+
+        </dt>
+
+        <dd >
+            @Html.DisplayFor(model => model.APELLIDO)
+        </dd>
+
+        <dt>
+            <b>
+                @Html.DisplayNameFor(model => model.DIRECCION)
+            </b>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DIRECCION)
+        </dd>
+
+        <dt>
+            <b>
+                @Html.DisplayNameFor(model => model.TELEFONO)
+            </b>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TELEFONO)
+        </dd>
+
+        <dt>
+            <b>
+                @Html.DisplayNameFor(model => model.CORREO)
+            </b>
+        </dt>
+
+        <dd >
+            @Html.DisplayFor(model => model.CORREO)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "EditarProvedor", new { id = Model.ID_PROVEDORES }) |
+</p>

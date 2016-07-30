@@ -1,0 +1,111 @@
+﻿@model IPagedList<CIELO_TM.Models.CieloListViewModel>
+
+@{ 
+    ViewBag.Title = "Inicio";
+}
+<link href="~/Content/slider/css/styles.css" rel="stylesheet">
+
+<div class="stage">
+
+    <div id="SLDR-ONE" class="sldr">
+        <ul class="wrp animate">
+            <li class="elmnt-one"><div class="skew"><div class="wrap"><img src="~/Content/slider/img/hp_ss16_1650_her.jpg" width="974" height="313" class="imgslider"></div></div></li>
+            <li class="elmnt-two"><div class="skew"><div class="wrap"><img src="~/Content/slider/img/hp_ss16_1650_hero_62.jpg" width="974" height="313" class="imgslider"></div></div></li>
+            <li class="elmnt-three"><div class="skew"><div class="wrap"><img src="~/Content/slider/img/hp_ss16_1650_her_o.jpg" width="974" height="313" class="imgslider"></div></div></li>
+        </ul>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="captions">
+        <div class="focalPoint"><p><small>Lake</small></p></div>
+        <div><p><small>Mountain Range</small></p></div>
+        <div><p><small>Mt. Fuji</small></p></div>
+        <div><p><small>Pink Forest</small></p></div>
+    </div>
+
+    <ul class="selectors">
+        <li class="focalPoint"><a href="">•</a></li>
+        <li><a href="">•</a></li>
+        <li><a href="">•</a></li>
+        <li><a href="">•</a></li>
+    </ul>
+
+
+    <div class="clear"></div>
+
+
+    @section scripts{
+        <script>
+
+$( window ).load( function() {
+
+	$( '.sldr' ).each( function() {
+		var th = $( this );
+		th.sldr({
+			focalClass    : 'focalPoint',
+			offset        : th.width() / 2,
+			sldrWidth     : 'responsive',
+			nextSlide     : th.nextAll( '.sldr-nav.next:first' ),
+			previousSlide : th.nextAll( '.sldr-nav.prev:first' ),
+			selectors     : th.nextAll( '.selectors:first' ).find( 'li' ),
+			toggle        : th.nextAll( '.captions:first' ).find( 'div' ),
+			sldrInit      : sliderInit,
+			sldrStart     : slideStart,
+			sldrComplete  : slideComplete,
+			sldrLoaded    : sliderLoaded,
+			sldrAuto      : true,
+			sldrTime      : 5000,
+			hasChange     : true
+		});
+	});
+
+});
+
+
+function sliderInit( args ) {
+
+}
+
+
+function slideLoaded( args ) {
+
+}
+
+
+function sliderLoaded( args ) {
+
+}
+
+
+function slideStart( args ) {
+
+}
+
+function slideComplete( args ) {
+
+}
+
+        </script>
+
+    }
+
+
+
+
+</div>
+
+<div class="wrapper">
+    <form method="get" action="@Url.Action("Index")" data-cielo-ajax="true" data-cielo-target="#productoslist">
+        <input type="search" name="buscar" data-cielo-autoComplete="@Url.Action("AutoComple")" class="txt-buscar" placeholder="digita el nombre del producto a buscar"/>
+        <input type="submit" value="Buscar" class=" btn btn-buscar"/>
+    </form>
+</div>
+
+    @Html.Partial("_Productos", Model)
+
+
+
+
+
+   

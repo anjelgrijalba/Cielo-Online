@@ -1,0 +1,55 @@
+﻿@model IPagedList<CIELO_TM.Models.CieloListViewModel>
+
+
+<link href="~/Content/stylecard.css" rel="stylesheet" />
+<script src="~/Scripts/cardscript.js"></script>
+
+
+   
+<div id="productoslist">
+    <div class="pagedlist" data-cielo-target="#productoslist">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), PagedListRenderOptions.MinimalWithItemCountText)
+    </div>
+    <h1 style="text-align:center;">agregados recientesmentes</h1>
+
+
+    <div class="wrappercard">
+        @foreach (var item in Model)
+        {
+            <div class="card radius shadowDepth1">
+                <div class="card__image border-tlr-radius">
+                    <img src="@item.IMAGEN1" alt="image" class="border-tlr-radius">
+
+                </div>
+
+
+                <div class="card__content card__padding">
+                    <div class="card__share">
+                      
+                        <div class="share-toggle share-icon">
+                            @Html.ActionLink("Ver", "Details", "Store", new { id = item.ID_PRODUCTO }, "")
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="card__meta">
+                        Precio:
+                        <time>@String.Format("{0:F}", @item.PRECIO_VENTA)</time>
+                    </div>
+
+                    <article class="card__article">
+                        <h2>@item.PRODUCTO</h2>
+                      
+                            @Html.ActionLink("Agregar al carrito", "AddToCart", "ShoppingCart", new { id = item.ID_PRODUCTO }, "")
+                            @Html.ActionLink("Agregar Comentario", "AgregarComentario", "Home", new { id = item.ID_PRODUCTO }, "")
+                            
+
+                    </article>
+                </div>
+
+            </div>
+        }
+    </div>
+</div>

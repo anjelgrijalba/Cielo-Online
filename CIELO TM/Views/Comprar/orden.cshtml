@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CIELO_TM.Models.PRODUCTOS>
+
+@{
+    ViewBag.Title = "orden";
+}
+<link href="~/Content/stylecardOrden.css" rel="stylesheet" />
+@*<script src="~/Scripts/cardscript.js"></script>*@
+   
+@foreach (var item in Model)
+{
+    <div id="general"class="wrapper">
+        <div class="info">
+            <img src="@item.IMAGEN2" alt="imagen principal" class="info"  style="height:368px;"/>
+
+            <div class="img1">
+                <img src="@item.IMAGEN1" alt="imagen principal" class="img1" />
+            </div>
+        
+            <div class="img2">
+                <img src="@item.IMAGEN1" alt="imagen 1" class="img1" />
+            </div>
+
+            <div class="img3">
+                <img src="@item.IMAGEN1" alt="imagen 2" class="img1" />
+            </div>
+        </div>
+        <div class="forma">
+            <div class="nombre-producto">
+                <h3> @Html.DisplayFor(a => item.PRODUCTO)</h3>
+            </div>
+
+            <div class="precio">
+                <h1>$ @Html.DisplayFor(a => item.PRECIO_VENTA)</h1>
+            </div>
+
+            <div class="marca">
+                <h1>@Html.DisplayFor(a => item.MARCA.MARCA1)</h1>
+            </div>
+
+            <div class="categoria">
+                <h1>@Html.DisplayFor(a => item.CATEGORIA.CATEGORIA1)</h1>
+            </div>
+
+            <div class="Descripcion">
+                <h1>@Html.DisplayFor(a => item.DESCRIPCION)</h1>
+            </div>
+
+            
+
+            @Html.ActionLink("Agregar al carrito","")
+            @Html.ActionLink("comprar directamente", "")
+        </div>
+
+    </div>
+   
+}
+

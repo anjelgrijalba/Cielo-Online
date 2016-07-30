@@ -1,0 +1,130 @@
+﻿@model CIELO_TM.Models.PRODUCTOS
+
+@{
+    ViewBag.Title = "Agregar Productos";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+}
+<link href="~/Content/StyleSheet_estilosR.css" rel="stylesheet" />
+
+@using (Html.BeginForm("GuardarProducto", "StoreManager", FormMethod.Post , new {enctype="multipart/form-data"}))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="login-screen wrapper">
+        <h2 class="app-title">AGREGAR PRODUCTOS</h2>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            Foto Principal
+            <div class="col-md-10">
+                <input type="file" value="elegir imagen" name="foto1" />
+                @Html.ValidationMessageFor(model => model.IMAGEN1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Foto Secundaria
+            <div class="col-md-10">
+                <input type="file" value="elegir imagen" name="foto2"/>
+                 @Html.ValidationMessageFor(model => model.IMAGEN2, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Foto Secundaria
+            <div class="col-md-10">
+                <input type="file" value="elegir imagen" name="foto3" />
+                @Html.ValidationMessageFor(model => model.IMAGEN3, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+                NOMBRE DEL PRODUCTO
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PRODUCTO, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.PRODUCTO, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+     
+
+        <div class="form-group">
+            PRECIO A VENDER
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PRECIO_VENTA, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.PRECIO_VENTA, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CANTIDAD, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CANTIDAD, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CANTIDAD, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            MARCA @Html.ActionLink("+", "", "")
+            <div class="col-md-10">
+                @Html.DropDownList("ID_MARCA", null, htmlAttributes: new { @class = "form-control" })
+
+                @Html.ValidationMessageFor(model => model.ID_MARCA, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            CATEGORIA @Html.ActionLink("+", "AgregarCategoria", "StoreManager")
+
+
+            <div class="col-md-10">
+                @Html.DropDownList("ID_CATEGORIA", null, htmlAttributes: new { @class = "form-control" })
+               
+                    @Html.ValidationMessageFor(model => model.ID_CATEGORIA, "", new { @class = "text-danger" })
+               
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            GENERO @Html.ActionLink(".", "", "")
+            <div class="col-md-10">
+                <select class="form-control" id="GENERO" name="GENERO">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+ 
+                </select>
+
+
+                @Html.ValidationMessageFor(model => model.GENERO, "", new { @class = "text-danger" })
+            </div>
+        </div>
+       
+
+        <div class="form-group">
+            PROVEDOR @Html.ActionLink("+","","")
+            <div class="col-md-10">
+                @*@Html.DropDownList("ID_PROVEDORES", null, htmlAttributes: new { @class = "form-control" })*@
+                @Html.EditorFor(model => model.ID_PROVEDOR, new { htmlAttributes = new { @class = "form-control" } })
+
+                @Html.ValidationMessageFor(model => model.ID_PROVEDOR, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DESCRIPCION, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DESCRIPCION, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DESCRIPCION, "", new { @class = "text-danger" })
+            </div>
+        </div>
+      
+     
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Agregar" class="btn btn-default" /> 
+            </div>
+        </div>
+    </div>
+}
+

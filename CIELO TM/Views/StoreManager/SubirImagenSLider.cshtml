@@ -1,0 +1,35 @@
+﻿@model CIELO_TM.Models.SLIDER
+
+@{
+    ViewBag.Title = "SubirImagenSLider";
+}
+
+<h2>SubirImagenSLider</h2>
+
+@using (Html.BeginForm("SubirImagenSLider", "StoreManager", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>SLIDER</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.URLIMAGE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+               <input type="file" name="sliderimg" value="Subir Foto" />
+                @Html.ValidationMessageFor(model => model.URLIMAGE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Guardar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

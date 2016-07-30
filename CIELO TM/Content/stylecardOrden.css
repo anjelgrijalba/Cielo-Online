@@ -1,0 +1,60 @@
+* {
+    margin:0px;
+    padding:0px;
+
+}div #general{
+    
+     margin:auto;
+     margin-top:20px;
+     width:100%;
+     height:500px;
+ }
+
+ div .info{
+     width:400px;
+     height:500px;
+     background-color:#ffd800;
+     position:relative;
+     float:left;
+ }
+
+ div .img1{
+     width:133px;
+     height:133px;
+     background-color:#06F;
+    bottom:0px;
+    left:0px;
+    position:absolute;    
+ }
+
+  div .img2{
+     width:133px;
+     height:133px;
+     background-color:#06F;
+    bottom:0px;
+    left:133px;
+    position:absolute;    
+ }
+
+    div .img3{
+     width:133px;
+     height:133px;
+     background-color:#06F;
+    bottom:0px;
+    left:266px;
+    position:absolute;    
+ }
+
+ div .forma{
+     width:550px;
+     height:100%;
+     background-color:aqua;
+     float:right;
+ }
+
+ /*contenido del forma*/
+
+ div.nombre-producto{
+     text-align:center;
+
+ }

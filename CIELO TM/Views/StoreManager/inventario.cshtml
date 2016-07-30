@@ -1,0 +1,81 @@
+﻿@model IEnumerable<CIELO_TM.Models.INVENTARIO>
+
+@{
+    ViewBag.Title = "inventario";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+}
+
+
+
+
+<div class="wrapper screen">
+    <h2 style="text-align:center;color:rgba(42, 40, 40, 0.79);">inventario</h2>
+    <table class="table">
+        <tr>
+            <th>
+             
+                    @Html.ActionLink("Agregar", "AgregarProducto")
+         
+
+            </th>
+        </tr>
+        <tr>
+
+            <th>
+                PRODUCTO
+            </th>
+            <th>
+               PRECIO VENTA
+            </th>
+            <th>
+               MARCA
+            </th>
+            <th>
+                DISPONIBLES
+            </th>
+            <th>
+                CATEGORIA
+            </th>
+            <th>
+                PROVEDOR
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRODUCTOS.PRODUCTO)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRODUCTOS.PRECIO_VENTA)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRODUCTOS.MARCA.MARCA1)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.DISPONIBLES)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRODUCTOS.CATEGORIA.CATEGORIA1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PROVEDORES.NOMBRE)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.ID_PRODUCTO }) |
+                    @Html.ActionLink("Mas Detalles", "Details", new { id = item.ID_PRODUCTO }) |
+                    @Html.ActionLink("Eliminar", "EliminarProducto", new { id = item.ID_VENTARIO ,v=item.ID_PRODUCTO})
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+

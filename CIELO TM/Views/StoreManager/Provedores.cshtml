@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CIELO_TM.Models.PROVEDORES>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+
+}
+
+<p>
+</p>
+<div class="screen">
+    <h2 style="text-align:center;color:rgba(42, 40, 40, 0.79);">Proveedores</h2>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.ActionLink("Crear nuevo", "AgregarProvedor")
+
+
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NOMBRE)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.TELEFONO)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CORREO)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NOMBRE)
+                </td>
+
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.TELEFONO)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.CORREO)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "EditarProvedor", new { id = item.ID_PROVEDORES }) |
+                    @Html.ActionLink("Detalles", "DetallesProvedores", new { id = item.ID_PROVEDORES }) |
+                    @Html.ActionLink("Eliminar", "BorrarProvedor", new { id = item.ID_PROVEDORES })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

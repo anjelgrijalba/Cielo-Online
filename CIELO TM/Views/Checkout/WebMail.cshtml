@@ -1,0 +1,46 @@
+﻿
+@{
+    var eMailSent = false;
+    if (IsPost)
+    {
+        eMailSent = true;
+        var eMailSubject = Request["subject"];
+        if (eMailSubject == null)
+        {
+            eMailSubject = "Asunto vacío";
+        }
+        var eMailMessage = Request["message"];
+        if (eMailMessage == null)
+        {
+            eMailMessage = "Mensaje este es una mensaje vacío";
+        }
+
+        WebMail.SmtpServer = "smtp.live.com";
+        WebMail.SmtpPort = 25;
+        WebMail.EnableSsl = true;
+        WebMail.UserName = "alex_thebeam@hotmail.com";
+        WebMail.From = "alex_thebeam@hotmail.com";
+        WebMail.Password = "palomayalexis21";
+        WebMail.Send(to: @Model.PROVEDORES.CORREO, subject: eMailSubject, body: eMailMessage);
+    }
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servicio WebMail</title>
+</head>
+<body>
+    <form method="POST">
+        <p>Asunto</p>
+        <input type="text" name="subject" value="Motivo del mensaje" /><br />
+        <p>Mensaje</p>
+        <textarea rows="6" cols="40" name="message">Escriba su mensaje aquí</textarea><br />
+        <input type="submit" value="Enviar" />
+    </form>
+    @{if (eMailSent)
+        {
+            <p>Mensaje enviado</p>
+        }
+    }
+</body>
+</html>

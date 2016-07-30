@@ -1,0 +1,17 @@
+﻿@model IEnumerable<CIELO_TM.Models.CieloListViewModel>
+
+@{ 
+    ViewBag.Title = "Cielo|Search Marca";
+}
+
+@using (Ajax.BeginForm(new AjaxOptions { HttpMethod = "get", InsertionMode = InsertionMode.Replace, UpdateTargetId = "elidajax" }))
+{
+        <input type="text" id="buscador" placeholder="Busca tu Marca favorita" name="q" class="txt-buscar">
+
+    <input type="submit" value="Buscar" class="btn btn-buscar"/>
+
+}
+   @Html.Partial("_Categorias",Model)
+
+
+

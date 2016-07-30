@@ -1,0 +1,214 @@
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\ApplicationInsights.config
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\csc.exe
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\vbc.exe
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\CIELO TM.dll.config
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\CIELO TM.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\CIELO TM.pdb
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Antlr3.Runtime.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\EntityFramework.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\EntityFramework.SqlServer.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.Web.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Newtonsoft.Json.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Owin.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Helpers.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Mvc.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Optimization.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Razor.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.WebPages.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\WebGrease.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.Web.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Helpers.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Mvc.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Optimization.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.Razor.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.WebPages.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Antlr3.Runtime.pdb
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Newtonsoft.Json.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\EntityFramework.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\EntityFramework.SqlServer.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\obj\Debug\CIELO TM.csprojResolveAssemblyReference.cache
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\obj\Debug\CIELO TM.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\obj\Debug\CIELO TM.pdb
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\System.Web.Razor.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\EntityFramework.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\PagedList.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\PagedList.Mvc.dll
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\PagedList.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\bin\PagedList.Mvc.xml
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\obj\Debug\CIELO_TM.Migrations.InitialCreate.resources
+C:\Users\Lebron\Desktop\CIELO TM\CIELO TM\obj\Debug\CIELO TM.csproj.GenerateResource.Cache
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\ApplicationInsights.config
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\csc.exe
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\vbc.exe
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\CIELO TM.dll.config
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\CIELO TM.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\CIELO TM.pdb
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Antlr3.Runtime.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\EntityFramework.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\EntityFramework.SqlServer.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.Web.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Newtonsoft.Json.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Owin.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\PagedList.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\PagedList.Mvc.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Helpers.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Mvc.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Optimization.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Razor.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.WebPages.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\WebGrease.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.Web.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\PagedList.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\PagedList.Mvc.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Helpers.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Mvc.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Optimization.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.Razor.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.WebPages.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Antlr3.Runtime.pdb
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Newtonsoft.Json.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\EntityFramework.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\EntityFramework.SqlServer.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\System.Web.Razor.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\EntityFramework.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\obj\Debug\CIELO TM.csprojResolveAssemblyReference.cache
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\obj\Debug\CIELO_TM.Migrations.InitialCreate.resources
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\obj\Debug\CIELO TM.csproj.GenerateResource.Cache
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\obj\Debug\CIELO TM.dll
+C:\Users\Lebron\Desktop\proyectos asp\proyecto final\CIELO TM\CIELO TM\obj\Debug\CIELO TM.pdb

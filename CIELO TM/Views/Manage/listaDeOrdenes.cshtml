@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CIELO_TM.Models.OrdenesViewModel>
+
+@{
+    ViewBag.Title = "listaDeOrdenes";
+}
+
+<h2>listaDeOrdenes</h2>
+
+<table class="table">
+    <tr>
+    
+        <th>
+            FECHA
+        </th>
+
+
+        <th>
+            PRODUCTO
+        </th>
+        <th>
+             CANTIDAD
+        </th>
+        <th>
+            PRECIO UNITARIO
+        </th>
+        <th>
+            TOTAL
+        </th>
+
+
+       
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.productos.PRODUCTO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Total)
+        </td>
+      
+       
+      
+
+    </tr>
+}
+
+</table>

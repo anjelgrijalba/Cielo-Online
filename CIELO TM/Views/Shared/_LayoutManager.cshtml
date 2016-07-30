@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body>
+
+    <span class="ir-arriba icon-circle-up"></span>
+
+    <header>
+          <div class="logo">
+              <a href="~/StoreManager/Index"><img src="~/Content/img/logo.png" style="width:175px; height:59px;"/></a>
+          </div>
+
+            <nav>
+                <ul>
+
+                    <!-- 1-El nombre que tendra 2-el metodo que se ejecutara 3-El controlador donde esta el metodo -->
+                    <li>@Html.ActionLink("Inventary ", "inventario", "StoreManager")</li>
+                    <li>@Html.ActionLink("AddProduct", "AgregarProducto", "StoreManager")</li>
+                    <li>@Html.ActionLink("AddCateg", "AgregarCategoria", "StoreManager")</li>   
+                    <li>@Html.ActionLink("AddProved", "AgregarProvedor", "StoreManager")</li>             
+                    <li>@Html.ActionLink("AccountForPaying", "CuentasPorPagar", "StoreManager")</li>
+                 
+                    <li class="ini">
+                        @Html.Partial("_LoginPartial")
+                    </li>
+   
+                </ul>
+            </nav>
+    </header>
+    <!--Olle que vacano con esta clase yo alineo todo el texto que esta en los cshtml 
+        y los datos que vienen de los controladores Pero Bien (y) (@@) Mengueche-->
+    <div class="contenido">
+
+        @RenderBody()
+
+        
+    </div>
+
+
+
+        <footer class="site-footer">
+            <p>© @DateTime.Now.Year - All rights reserved. SIAE LICENCE # 2294/I/1936</p>
+
+
+
+            <div class="socialnet">
+            <h5>FIND US</h5>
+            <ul>
+                <li class="footer-item"><a href=""><img src="~/Content/img/socialNetwork/facebook.png"></a></li>
+                <li class="footer-item"><a href=""><img src="~/Content/img/socialNetwork/instagram.png"></a></li>
+                <li class="footer-item"><a href=""><img src="~/Content/img/socialNetwork/pinterest.png"></a></li>
+                <li class="footer-item"><a href=""><img src="~/Content/img/socialNetwork/skype.png"></a></li>
+                <li class="footer-item"><a href=""><img src="~/Content/img/socialNetwork/twitter.png"></a></li>
+            </ul>
+
+             </div>
+  
+            
+            
+        </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/ajax")
+    @Scripts.Render("~/bundles/jqueryvalunobtrusive")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/cielo")
+    @Scripts.Render("~/bundles/arriba")
+    @Scripts.Render("~/bundles/slider")
+    @RenderSection("scripts", required: false)
+</body>
+
+
+</html>
+
+
+

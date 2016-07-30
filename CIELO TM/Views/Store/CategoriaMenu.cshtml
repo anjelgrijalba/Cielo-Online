@@ -1,0 +1,17 @@
+﻿@model IEnumerable<CIELO_TM.Models.MARCA>
+
+<form action="get">
+    <input type="text" id="buscador" placeholder="search..." name="v">
+    <input type="submit" value="Buscar" />
+
+
+</form>
+
+<ul id="categorias">
+    @foreach (var m in Model)
+    {
+        <li>
+            @Html.ActionLink(m.MARCA1,"Search", "Store",new { v = m.MARCA1 }, null)
+        </li>
+    }
+</ul>
